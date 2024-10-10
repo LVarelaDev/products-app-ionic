@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.category-card {
+  flex: 1 1 calc(30.3333% - 15px);
+  text-align: center;
+}
+
+.category-card {
+  margin: 8px;
+}
+
+.category-card.active {
+  background-color: #4caf50;
+  color: white;
+}
+
